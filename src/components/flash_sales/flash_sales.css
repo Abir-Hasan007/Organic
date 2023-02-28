@@ -1,0 +1,98 @@
+.flash__item {
+	margin-bottom: 5px;
+}
+
+.flash__item:hover .flash__item__pic .flash__item__pic__hover {
+	bottom: 20px;
+}
+
+.flash__item__pic {
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+	background-position: center center;
+	
+}
+.flash__item__pic a {
+	color: #252525;
+	text-decoration: none;
+	text-align: center;
+}
+.flash__item__pic a:hover {
+	color: #252525;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.flash__item__pic__hover {
+	position: absolute;
+	left: 0;
+	bottom: -250px;
+	width: 100%;
+	text-align: center;
+	-webkit-transition: all, 0.5s;
+	-moz-transition: all, 0.5s;
+	-ms-transition: all, 0.5s;
+	-o-transition: all, 0.5s;
+	transition: all, 0.5s;
+	background-color: rgba(40,40,40,.75);
+	height: 220px;
+	opacity: 1;
+}
+
+.flash__item__pic__hover .list {
+	list-style: none;
+	display: inline-block;
+	margin-right: 6px;
+}
+
+.flash__item__pic__hover .list:last-child {
+	margin-right: 0;
+}
+
+.flash__item__pic__hover .list:hover a {
+	background: #7fad39;
+	border-color: #7fad39;
+}
+
+.flash__item__pic__hover .list:hover a i {
+	color: #ffffff;
+	transform: rotate(360deg);
+}
+
+.flash__item__pic__hover .list a {
+	font-size: 16px;
+	color: #1c1c1c;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #ebebeb;
+	background: #ffffff;
+	display: block;
+	border-radius: 50%;
+	-webkit-transition: all, 0.5s;
+	-moz-transition: all, 0.5s;
+	-ms-transition: all, 0.5s;
+	-o-transition: all, 0.5s;
+	transition: all, 0.5s;
+}
+
+.flash__item__pic__hover .list a i {
+	position: relative;
+	transform: rotate(0);
+	-webkit-transition: all, 0.3s;
+	-moz-transition: all, 0.3s;
+	-ms-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+.flash__item__pic__hover  p{
+	margin-top: 15px;
+	font-size: 22px;
+	font-weight: 700;
+	color: white;
+}
+.flash_img{
+	cursor: pointer;
+}
